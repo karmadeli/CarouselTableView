@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6F0AC62184F0BF001696E1 /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F0AC52184F0BF001696E1 /* CarouselViewModel.swift */; };
+		1F6F0ACA21861533001696E1 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F0AC82186152D001696E1 /* iCarousel.m */; };
+		1F6F0ACC21861A52001696E1 /* ViewController+iCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F0ACB21861A52001696E1 /* ViewController+iCarousel.swift */; };
+		1F80F0192183200D00D383F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F0182183200D00D383F7 /* AppDelegate.swift */; };
+		1F80F01B2183200D00D383F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F01A2183200D00D383F7 /* ViewController.swift */; };
+		1F80F01E2183200D00D383F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F80F01C2183200D00D383F7 /* Main.storyboard */; };
+		1F80F0202183200E00D383F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F80F01F2183200E00D383F7 /* Assets.xcassets */; };
+		1F80F0232183200E00D383F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F80F0212183200E00D383F7 /* LaunchScreen.storyboard */; };
+		1F80F0332183228B00D383F7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F0312183228B00D383F7 /* TableViewCell.swift */; };
+		1F80F037218330A900D383F7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F035218330A900D383F7 /* CollectionViewCell.swift */; };
+		1F80F038218330A900D383F7 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F80F036218330A900D383F7 /* CollectionViewCell.xib */; };
+		1F80F0442183975100D383F7 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F0432183975100D383F7 /* Sections.swift */; };
+		1F80F0462183A95F00D383F7 /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F0452183A95F00D383F7 /* ImageClient.swift */; };
+		1F80F04A2183E90400D383F7 /* FlickrImageSrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F0492183E90400D383F7 /* FlickrImageSrc.swift */; };
+		CD0E4E6CC92FB93BA4E1F7AE /* Pods_CarouselTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29171EA42A414F4D70BFDBA /* Pods_CarouselTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F6F0AC52184F0BF001696E1 /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		1F6F0AC82186152D001696E1 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		1F6F0AC921861533001696E1 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		1F6F0ACB21861A52001696E1 /* ViewController+iCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+iCarousel.swift"; sourceTree = "<group>"; };
+		1F6F0AD121869ACD001696E1 /* CarouselTableView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarouselTableView-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F80F0152183200C00D383F7 /* CarouselTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F80F0182183200D00D383F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F80F01A2183200D00D383F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F80F01D2183200D00D383F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F80F01F2183200E00D383F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F80F0222183200E00D383F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F80F0242183200E00D383F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F80F0312183228B00D383F7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1F80F035218330A900D383F7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1F80F036218330A900D383F7 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		1F80F0432183975100D383F7 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		1F80F0452183A95F00D383F7 /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
+		1F80F0492183E90400D383F7 /* FlickrImageSrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageSrc.swift; sourceTree = "<group>"; };
+		223B5CCBBB7F6E591AD1C8BD /* Pods_AMCCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMCCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B84CBA898211668BB290122 /* Pods-CarouselTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarouselTableView/Pods-CarouselTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		C7AA02EB347DF3C3132BE688 /* Pods-CarouselTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarouselTableView/Pods-CarouselTableView.release.xcconfig"; sourceTree = "<group>"; };
+		E29171EA42A414F4D70BFDBA /* Pods_CarouselTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarouselTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E016DACD9DF2243A8EDA1 /* Pods-AMCCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMCCodingChallenge/Pods-AMCCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		FDDC43A0E3C34E6C2EA0A6DD /* Pods-AMCCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMCCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMCCodingChallenge/Pods-AMCCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F80F0122183200C00D383F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0E4E6CC92FB93BA4E1F7AE /* Pods_CarouselTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F80F00C2183200C00D383F7 = {
+			isa = PBXGroup;
+			children = (
+				1F80F0172183200D00D383F7 /* CarouselTableView */,
+				1F80F0162183200C00D383F7 /* Products */,
+				D269139924F14C073AB598A3 /* Pods */,
+				BAC53CE9B93BA49D93C5340B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F80F0162183200C00D383F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F80F0152183200C00D383F7 /* CarouselTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F80F0172183200D00D383F7 /* CarouselTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1F80F01F2183200E00D383F7 /* Assets.xcassets */,
+				1F80F0302183218500D383F7 /* Model */,
+				1F80F02F2183218100D383F7 /* View */,
+				1F80F02A2183214900D383F7 /* ViewModel */,
+				1F80F0182183200D00D383F7 /* AppDelegate.swift */,
+				1F80F01A2183200D00D383F7 /* ViewController.swift */,
+				1F6F0ACB21861A52001696E1 /* ViewController+iCarousel.swift */,
+				1F80F0452183A95F00D383F7 /* ImageClient.swift */,
+				1F80F0242183200E00D383F7 /* Info.plist */,
+				1F6F0AD121869ACD001696E1 /* CarouselTableView-Bridging-Header.h */,
+			);
+			path = CarouselTableView;
+			sourceTree = "<group>";
+		};
+		1F80F02A2183214900D383F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F0AC52184F0BF001696E1 /* CarouselViewModel.swift */,
+				1F6F0AC921861533001696E1 /* iCarousel.h */,
+				1F6F0AC82186152D001696E1 /* iCarousel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F80F02F2183218100D383F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F80F0312183228B00D383F7 /* TableViewCell.swift */,
+				1F80F035218330A900D383F7 /* CollectionViewCell.swift */,
+				1F80F01C2183200D00D383F7 /* Main.storyboard */,
+				1F80F036218330A900D383F7 /* CollectionViewCell.xib */,
+				1F80F0212183200E00D383F7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F80F0302183218500D383F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F80F0492183E90400D383F7 /* FlickrImageSrc.swift */,
+				1F80F0432183975100D383F7 /* Sections.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAC53CE9B93BA49D93C5340B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				223B5CCBBB7F6E591AD1C8BD /* Pods_AMCCodingChallenge.framework */,
+				E29171EA42A414F4D70BFDBA /* Pods_CarouselTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D269139924F14C073AB598A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79E016DACD9DF2243A8EDA1 /* Pods-AMCCodingChallenge.debug.xcconfig */,
+				FDDC43A0E3C34E6C2EA0A6DD /* Pods-AMCCodingChallenge.release.xcconfig */,
+				6B84CBA898211668BB290122 /* Pods-CarouselTableView.debug.xcconfig */,
+				C7AA02EB347DF3C3132BE688 /* Pods-CarouselTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F80F0142183200C00D383F7 /* CarouselTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F80F0272183200E00D383F7 /* Build configuration list for PBXNativeTarget "CarouselTableView" */;
+			buildPhases = (
+				8962D1851E557734B2D5ADAD /* [CP] Check Pods Manifest.lock */,
+				1F80F0112183200C00D383F7 /* Sources */,
+				1F80F0122183200C00D383F7 /* Frameworks */,
+				1F80F0132183200C00D383F7 /* Resources */,
+				8C3D933CF45B49643E84C4CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarouselTableView;
+			productName = AMCCodingChallenge;
+			productReference = 1F80F0152183200C00D383F7 /* CarouselTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F80F00D2183200C00D383F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "KarmaDeli Works";
+				TargetAttributes = {
+					1F80F0142183200C00D383F7 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 1F80F0102183200C00D383F7 /* Build configuration list for PBXProject "CarouselTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F80F00C2183200C00D383F7;
+			productRefGroup = 1F80F0162183200C00D383F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F80F0142183200C00D383F7 /* CarouselTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F80F0132183200C00D383F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F80F0232183200E00D383F7 /* LaunchScreen.storyboard in Resources */,
+				1F80F0202183200E00D383F7 /* Assets.xcassets in Resources */,
+				1F80F01E2183200D00D383F7 /* Main.storyboard in Resources */,
+				1F80F038218330A900D383F7 /* CollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8962D1851E557734B2D5ADAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarouselTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3D933CF45B49643E84C4CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarouselTableView/Pods-CarouselTableView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarouselTableView/Pods-CarouselTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F80F0112183200C00D383F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F80F0332183228B00D383F7 /* TableViewCell.swift in Sources */,
+				1F80F0442183975100D383F7 /* Sections.swift in Sources */,
+				1F80F01B2183200D00D383F7 /* ViewController.swift in Sources */,
+				1F6F0ACA21861533001696E1 /* iCarousel.m in Sources */,
+				1F6F0AC62184F0BF001696E1 /* CarouselViewModel.swift in Sources */,
+				1F80F037218330A900D383F7 /* CollectionViewCell.swift in Sources */,
+				1F80F0192183200D00D383F7 /* AppDelegate.swift in Sources */,
+				1F80F04A2183E90400D383F7 /* FlickrImageSrc.swift in Sources */,
+				1F6F0ACC21861A52001696E1 /* ViewController+iCarousel.swift in Sources */,
+				1F80F0462183A95F00D383F7 /* ImageClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F80F01C2183200D00D383F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F80F01D2183200D00D383F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F80F0212183200E00D383F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F80F0222183200E00D383F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F80F0252183200E00D383F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F80F0262183200E00D383F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F80F0282183200E00D383F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B84CBA898211668BB290122 /* Pods-CarouselTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YAR3GA7FS8;
+				INFOPLIST_FILE = "$(SRCROOT)/CarouselTableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karmadeliworks.CarouselTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarouselTableView/CarouselTableView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F80F0292183200E00D383F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AA02EB347DF3C3132BE688 /* Pods-CarouselTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YAR3GA7FS8;
+				INFOPLIST_FILE = "$(SRCROOT)/CarouselTableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karmadeliworks.CarouselTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarouselTableView/CarouselTableView-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F80F0102183200C00D383F7 /* Build configuration list for PBXProject "CarouselTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F80F0252183200E00D383F7 /* Debug */,
+				1F80F0262183200E00D383F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F80F0272183200E00D383F7 /* Build configuration list for PBXNativeTarget "CarouselTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F80F0282183200E00D383F7 /* Debug */,
+				1F80F0292183200E00D383F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F80F00D2183200C00D383F7 /* Project object */;
+}
