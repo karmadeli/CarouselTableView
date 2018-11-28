@@ -1,6 +1,5 @@
 //
 //  CollectionViewCell.swift
-//  AMCCodingChallenge
 //
 //  Created by Chad Murdock on 10/26/18.
 //  Copyright © 2018 KarmaDeli Works. All rights reserved.
