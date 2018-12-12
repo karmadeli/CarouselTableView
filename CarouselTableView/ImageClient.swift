@@ -35,6 +35,7 @@ class ImageClient{
     }
     
     static func fetchData(for searchTerm: String, completion: @escaping([FlickrImageSrc])->()){
+        //Replace unsigned key with your valid Flickr API key here:
         let unsignedKey = "dc40d1d9a403bf435d4e3392f166ef83"
         let url = "https://api.flickr.com/services/rest/"
         let searchMethod = "flickr.photos.search"
