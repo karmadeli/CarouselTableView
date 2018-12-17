@@ -35,11 +35,11 @@ class ImageClient{
     }
     
     static func fetchData(for searchTerm: String, completion: @escaping([FlickrImageSrc])->()){
-        //Replace unsigned key with your valid Flickr API key here:
-        let unsignedKey = "dc40d1d9a403bf435d4e3392f166ef83"
+        //Developer's courtesy key:
+        let key = "9704f10f9772d5a55da2299e1d7ed41b"
         let url = "https://api.flickr.com/services/rest/"
         let searchMethod = "flickr.photos.search"
-        let params = ["api_key": unsignedKey, "format" : "json", "tags" : searchTerm, "method": searchMethod, "nojsoncallback":"1", "page":"1", "per_page" : "10"]
+        let params = ["api_key": key, "format" : "json", "tags" : searchTerm, "method": searchMethod, "nojsoncallback":"1", "page":"1", "per_page" : "10"]
         Alamofire.request(url, method: .get, parameters: params).responseJSON { (response) in
             if response.result.isSuccess{
                 
